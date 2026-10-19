@@ -6,7 +6,7 @@ description: >-
   search visibility, or findability of a repo README, skill page, landing page,
   article, or marketing copy — and wants both the diagnosis and concrete rewrites.
   Chains findable (audit) → wordsmith (alternatives) in one workflow. Not for
-  tuning SKILL.md trigger language (use skill-creator), not for code review, and
+  tuning SKILL.md trigger language (use tune-skill), not for code review, and
   not for resume optimization (use recruiter-lens).
 version: 1.0.0
 argument-hint: "[target text | file path]"
@@ -115,7 +115,7 @@ Use Option C for the opening line, add "agent skill, SEO audit, GitHub discovery
 
 ## Boundaries
 
-- **Does not** tune SKILL.md frontmatter `description` for agent triggering (that is skill-creator's job).
+- **Does not** tune SKILL.md frontmatter `description` for agent triggering (that is tune-skill's job).
 - **Does not** review code quality or logic (use a code-review skill).
 - **Does not** optimize resumes or career documents (use recruiter-lens).
 - **Does not** execute `gh repo edit` or push changes — it drafts the kit and hands over commands for the user to run.
